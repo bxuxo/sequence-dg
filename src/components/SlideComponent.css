@@ -1,0 +1,42 @@
+.slide {
+    scroll-snap-align: start;
+  
+    width: 100vw;
+    flex: 0 0 100vh;
+
+    display: flex;
+    flex-direction: column;
+
+    background-color: var(--bgCol);
+    color: var(--textCol);
+    padding: 5px;
+
+    & > h1 {
+        font-size: 2.2em;
+        padding: 10px;
+    }
+
+    & .slide-description {
+        font-size: 1.2em;
+        padding: 10px;
+
+        display: flex;
+    }
+
+    & .slide-content {
+        flex: 1;
+        display: flex;
+        gap: 10px;
+
+        & > * {
+            flex: 1;
+        }
+
+        & .slide-img-container {
+            & > img {
+                border-radius: 1rem;
+                width: 100%;
+            }
+        }
+    }
+}
