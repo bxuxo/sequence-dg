@@ -16,7 +16,9 @@ export default function App() {
             />
 
             <SlideComponent
-                title={"Kas tā ir un vai tā ir struktūras vai uzvedības modeļa daļa?"}
+                title={
+                    "Kas tā ir un vai tā ir struktūras vai uzvedības modeļa daļa?"
+                }
                 description={
                     "Lorem lorem rejahb rgueahriofhajbfh oijahebfjo iuhajvebhjfiuo uhegajvnbfiuou heajvbjfiuo hkajebjhkofiu hkjbaehuoi fhjbaeiuohk fjbvnheajiuohfjb kaoeiuhj fbkiuoeahbj fkoiueahjvbnhfjiuo aeuhjvbhfiuo aehkjb"
                 }
@@ -30,9 +32,11 @@ export default function App() {
             <SlideComponent
                 title={"Kad to izmanto?"}
                 description={
-                    "Lorem lorem rejahb rgueahriofhajbfh oijahebfjo iuhajvebhjfiuo uhegajvnbfiuou heajvbjfiuo hkajebjhkofiu hkjbaehuoi fhjbaeiuohk fjbvnheajiuohfjb kaoeiuhj fbkiuoeahbj fkoiueahjvbnhfjiuo aeuhjvbhfiuo aehkjb"
+                    "Secības diagrammas ir noderīgas, lai vizualizētu un izprastu mijiedarbības plūsmu sistēmā. Tās parasti izmanto programmatūras izstrādes projektēšanas un dokumentēšanas fāzēs, lai attēlotu sistēmas dinamisko uzvedību vai izprastu esošās sistēmas."
                 }
-                imgUrl={"https://i.imgur.com/79TgQz9.jpg"}
+                imgUrl={
+                    "https://th.bing.com/th/id/OIP.n0YL6HVlb9Pp0yWMgk9VugHaIN?pid=ImgDet&rs=1"
+                }
                 bgCol={"rgb(50, 50, 50)"}
                 textCol={"white"}
             />
@@ -57,7 +61,6 @@ export default function App() {
                 textCol={"white"}
             />
 
-            
             <SlideComponent
                 title={"Kāds ir piemērs ar skaidrojumu?"}
                 description={
@@ -77,8 +80,6 @@ export default function App() {
                 bgCol={"rgb(50, 50, 50)"}
                 textCol={"white"}
             />
-
-            
         </main>
     );
 }
