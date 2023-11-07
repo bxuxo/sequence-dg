@@ -18,10 +18,10 @@ export default function App() {
             <SlideComponent
                 title={"Kas tā ir un vai tā ir struktūras vai uzvedības modeļa daļa?"}
                 description={
-                    "Lorem lorem rejahb rgueahriofhajbfh oijahebfjo iuhajvebhjfiuo uhegajvnbfiuou heajvbjfiuo hkajebjhkofiu hkjbaehuoi fhjbaeiuohk fjbvnheajiuohfjb kaoeiuhj fbkiuoeahbj fkoiueahjvbnhfjiuo aeuhjvbhfiuo aehkjb"
+                    "Sekvenču diagramma ir viena no uzvedības diagrammu kategorijām, un tās galvenais mērķis ir attēlot, kā dažādi objekti un sistēmas komponentes mijiedarbojas laika gaitā, modelējot to secību un notikumu izpildi. Sekvenču diagramma pieder uzvedības diagrammu kategorijai un tiek izmantota, lai vizuāli modelētu sistēmas uzvedību un darbību laika gaitā, neattiecoties uz to struktūru."
                 }
                 imgUrl={
-                    "https://i1.sndcdn.com/artworks-28nZ9iNGE40eOkTI-alYLyg-t500x500.jpg"
+                    "https://media.kare11.com/assets/ETONLINE/images/ff7512df-eb27-44af-8cc4-3029fe0c3c8f/ff7512df-eb27-44af-8cc4-3029fe0c3c8f_1140x641.png"
                 }
                 bgCol={"rgb(50, 50, 50)"}
                 textCol={"white"}
@@ -50,7 +50,7 @@ export default function App() {
             <SlideComponent
                 title={"Kādi UML elementi ir šajā diagrammā?"}
                 description={
-                    "Lorem lorem rejahb rgueahriofhajbfh oijahebfjo iuhajvebhjfiuo uhegajvnbfiuou heajvbjfiuo hkajebjhkofiu hkjbaehuoi fhjbaeiuohk fjbvnheajiuohfjb kaoeiuhj fbkiuoeahbj fkoiueahjvbnhfjiuo aeuhjvbhfiuo aehkjb"
+                    "asd"
                 }
                 imgUrl={"https://i.imgur.com/79TgQz9.jpg"}
                 bgCol={"rgb(50, 50, 50)"}
