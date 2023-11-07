@@ -3,8 +3,12 @@ import './App.css';
 import SlideComponent from './components/SlideComponent.js';
 
 export default function App( ) {
+  function onScroll(e) {
+    console.log(e.target.scrollHeight);
+  }
+
   return (
-    <main className='container-all hidden-scrollbar'>
+    <main className='container-all hidden-scrollbar' onScroll={ onScroll }>
       <SlideComponent 
         title={ 'Title of a slide' }
         description={ 'Lorem lorem rejahb rgueahriofhajbfh oijahebfjo iuhajvebhjfiuo uhegajvnbfiuou heajvbjfiuo hkajebjhkofiu hkjbaehuoi fhjbaeiuohk fjbvnheajiuohfjb kaoeiuhj fbkiuoeahbj fkoiueahjvbnhfjiuo aeuhjvbhfiuo aehkjb' }

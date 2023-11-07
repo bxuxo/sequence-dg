@@ -14,9 +14,7 @@ export default function SlideComponent({ title, description, imgUrl, bgCol, text
                 <div className='slide-description'>
                     { description }
                 </div>
-                <div className='slide-img-container'>
-                    <img src={ imgUrl } />
-                </div>
+                <img src={ imgUrl } />
             </div>
         </article>
     );
