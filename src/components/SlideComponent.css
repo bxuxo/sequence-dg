@@ -9,18 +9,17 @@
 
     background-color: var(--bgCol);
     color: var(--textCol);
-    padding: 5px;
 
-    padding: 50px;
+    padding: 1rem;
 
     & > h1 {
         font-size: 2.2em;
-        padding: 10px;
+        padding: 0.5rem;
     }
 
     & .slide-description {
         font-size: 1.2em;
-        padding: 10px;
+        padding: 0.5rem;
 
         display: flex;
     }
@@ -28,7 +27,7 @@
     & .slide-content {
         flex: 1;
         display: flex;
-        gap: 10px;
+        gap: 0.5rem;
 
         & > * {
             width: 50%;
