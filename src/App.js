@@ -8,20 +8,23 @@ import TitleScreen from "./components/TitleScreen.js";
 export default function App() {
     const mainElem = useRef(null);
 
-    function onEnter( ) {
-        mainElem.current.focus( );
+    function onEnter() {
+        mainElem.current.focus();
     }
 
     return (
         <>
-            <TitleScreen 
-                author={ 'Justs, Bruno, Roberts, Kārlis' }
-                title={ 'Sekvences diagramma' }
-                enterCallback={ onEnter }
+            <TitleScreen
+                author={"Justs, Bruno, Roberts, Kārlis"}
+                title={"Sekvences diagramma"}
+                enterCallback={onEnter}
             />
 
-            <main className="container-all hidden-scrollbar" ref={ mainElem } tabIndex={ -1 }>
-
+            <main
+                className="container-all hidden-scrollbar"
+                ref={mainElem}
+                tabIndex={-1}
+            >
                 <SlideComponent
                     title={
                         "Kas tā ir un vai tā ir struktūras vai uzvedības modeļa daļa?"
@@ -53,28 +56,38 @@ export default function App() {
                     description={
                         "Līnija dzīvē: Līnija dzīvē ir UML elements, kas pārstāv objektu vai dalībnieku mijiedarbībā, un tas tiek izmantots, lai attēlotu objekta pastāvēšanu laika gaitā.Aktivizācijas josla: Aktivizācijas josla, kas ir vertikāls četrstūris uz līnijas dzīvē, pārstāv laika periodu, kurā objekts ir aktīvs un apstrādā ziņojumu.Ziņojums: Ziņojumi, ieskaitot sinhronos, asinhronos un atgriešanas ziņojumus, ir UML elementi, kas tiek izmantoti, lai attēlotu komunikāciju un mijiedarbību starp objektiem.Paša ziņojums: Paša ziņojumi, kas tiek izmantoti, lai parādītu, ka objekts sūta ziņojumu pašam sev, ir arī UML elementi."
                     }
-                    imgUrl={"https://cdn.discordapp.com/attachments/515119370125443082/1171707601856254002/image.png?ex=655da8bd&is=654b33bd&hm=19fee0c26f849bf9f97bd38f454e25922b015d87c00f7f018d0030866a59a1c0&"}
+                    imgUrl={
+                        "https://cdn.discordapp.com/attachments/515119370125443082/1171707601856254002/image.png?ex=655da8bd&is=654b33bd&hm=19fee0c26f849bf9f97bd38f454e25922b015d87c00f7f018d0030866a59a1c0&"
+                    }
                     bgCol={"rgb(50, 50, 50)"}
                     textCol={"white"}
                 />
 
-
                 <SlideComponent
                     title={"Kāds ir piemērs ar skaidrojumu?"}
-                    description={
-                        ''
+                    description={""}
+                    imgUrl={
+                        "https://cdn-images.visual-paradigm.com/guide/uml/what-is-sequence-diagram/01-sequence-diagram-example.png"
                     }
-                    imgUrl={"https://cdn-images.visual-paradigm.com/guide/uml/what-is-sequence-diagram/01-sequence-diagram-example.png"}
                     bgCol={"rgb(50, 50, 50)"}
                     textCol={"white"}
                 />
 
                 <SlideComponent
                     title={"Kā šī diagramma izskatās Bloga gadījumā?"}
-                    description={
-                        ''
+                    description={""}
+                    imgUrl={
+                        "https://cdn.discordapp.com/attachments/515119370125443082/1171706744590831706/image.png?ex=655da7f1&is=654b32f1&hm=fa6596d9635fc7ef2c5912f6193b3a369518e3a50deb59e7acb66bf7983e667d&"
                     }
-                    imgUrl={"https://cdn.discordapp.com/attachments/515119370125443082/1171706744590831706/image.png?ex=655da7f1&is=654b32f1&hm=fa6596d9635fc7ef2c5912f6193b3a369518e3a50deb59e7acb66bf7983e667d&"}
+                    bgCol={"rgb(50, 50, 50)"}
+                    textCol={"white"}
+                />
+                <SlideComponent
+                    title={"Uzdevums jums!!!"}
+                    description={
+                        "Lietotājs grib nopirkt biļeti uz piecām naktīm pie fredija fazlāča. Izveido sekvences diagrammu, kur lietotājs ar serveri mijiedarbojās, pērkot biļeti onlainā."
+                    }
+                    imgUrl={"https://i.imgur.com/79TgQz9.jpg"}
                     bgCol={"rgb(50, 50, 50)"}
                     textCol={"white"}
                 />
