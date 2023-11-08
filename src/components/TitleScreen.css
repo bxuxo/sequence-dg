@@ -1,6 +1,49 @@
 .title-screen {
     position: absolute;
     width: 100vw;
-    height: 100vw;
+    height: 100vh;
     background-color: black;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+
+    transform: scale(1);
+    transition: transform 500ms ease-in-out;
+
+    & .title {
+        font-size: 4rem;
+    }
+
+    & .author {
+        font-size: 2rem;
+    }
+
+    & .enter-btn {
+        padding: 5px;
+        background-color: rgb(30, 30, 30);
+        border-radius: 3px;
+        border: 1px solid rgb(100, 100, 100);
+        color: rgb(100, 100, 100);
+        cursor: pointer;
+        margin-top: 0.5rem;
+
+        transition: border 300ms ease-in-out, color 300ms ease-in-out;
+
+        &:hover {
+            border: 1px solid rgb(175, 175, 175);
+            color: rgb(175, 175, 175);
+        }
+
+        &:active {
+            border: 1px solid white;
+            color: white;
+        }
+    }
+}
+
+.title-screen-hidden {
+    transform: scale(0);       
 }
