@@ -18,7 +18,10 @@ export default function SlideComponent({ title, description, imgUrl, bgCol, text
                         { description }
                     </div>
                 }
-                <div className='slide-img-container' style={{ background: `url(${ imgUrl }) no-repeat center`, backgroundSize: 'contain' }}>
+                <div className='slide-img'>
+                    <img 
+                        src={ imgUrl }
+                    />
                 </div>
             </div>
         </article>
