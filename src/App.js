@@ -33,7 +33,7 @@ export default function App() {
                         "Sekvenču diagramma ir viena no uzvedības diagrammu kategorijām, un tās galvenais mērķis ir attēlot, kā dažādi objekti un sistēmas komponentes mijiedarbojas laika gaitā, modelējot to secību un notikumu izpildi. Sekvenču diagramma pieder uzvedības diagrammu kategorijai un tiek izmantota, lai vizuāli modelētu sistēmas uzvedību un darbību laika gaitā, neattiecoties uz to struktūru."
                     }
                     imgUrl={
-                        "https://creately.com/static/assets/guides/sequence-diagram-tutorial/template5.webp"
+                        "img/template5.webp"
                     }
                     bgCol={"rgb(50, 50, 50)"}
                     textCol={"white"}
@@ -45,7 +45,7 @@ export default function App() {
                         "Secības diagrammas ir noderīgas, lai vizualizētu un izprastu mijiedarbības plūsmu sistēmā. Tās parasti izmanto programmatūras izstrādes projektēšanas un dokumentēšanas fāzēs, lai attēlotu sistēmas dinamisko uzvedību vai izprastu esošās sistēmas."
                     }
                     imgUrl={
-                        "https://th.bing.com/th/id/OIP.n0YL6HVlb9Pp0yWMgk9VugHaIN?pid=ImgDet&rs=1"
+                        "img/OIP.jpg"
                     }
                     bgCol={"rgb(50, 50, 50)"}
                     textCol={"white"}
@@ -57,7 +57,7 @@ export default function App() {
                         "Līnija dzīvē: Līnija dzīvē ir UML elements, kas pārstāv objektu vai dalībnieku mijiedarbībā, un tas tiek izmantots, lai attēlotu objekta pastāvēšanu laika gaitā.Aktivizācijas josla: Aktivizācijas josla, kas ir vertikāls četrstūris uz līnijas dzīvē, pārstāv laika periodu, kurā objekts ir aktīvs un apstrādā ziņojumu.Ziņojums: Ziņojumi, ieskaitot sinhronos, asinhronos un atgriešanas ziņojumus, ir UML elementi, kas tiek izmantoti, lai attēlotu komunikāciju un mijiedarbību starp objektiem.Paša ziņojums: Paša ziņojumi, kas tiek izmantoti, lai parādītu, ka objekts sūta ziņojumu pašam sev, ir arī UML elementi."
                     }
                     imgUrl={
-                        "https://cdn.discordapp.com/attachments/515119370125443082/1171707601856254002/image.png?ex=655da8bd&is=654b33bd&hm=19fee0c26f849bf9f97bd38f454e25922b015d87c00f7f018d0030866a59a1c0&"
+                        "img/elements.png"
                     }
                     bgCol={"rgb(50, 50, 50)"}
                     textCol={"white"}
@@ -67,7 +67,7 @@ export default function App() {
                     title={"Kāds ir piemērs ar skaidrojumu?"}
                     description={""}
                     imgUrl={
-                        "https://cdn-images.visual-paradigm.com/guide/uml/what-is-sequence-diagram/01-sequence-diagram-example.png"
+                        "img/paskaidrojums.png"
                     }
                     bgCol={"rgb(50, 50, 50)"}
                     textCol={"white"}
@@ -77,7 +77,7 @@ export default function App() {
                     title={"Kā šī diagramma izskatās Bloga gadījumā?"}
                     description={""}
                     imgUrl={
-                        "https://cdn.discordapp.com/attachments/515119370125443082/1171706744590831706/image.png?ex=655da7f1&is=654b32f1&hm=fa6596d9635fc7ef2c5912f6193b3a369518e3a50deb59e7acb66bf7983e667d&"
+                        "img/bloga_dg.png"
                     }
                     bgCol={"rgb(50, 50, 50)"}
                     textCol={"white"}
@@ -88,7 +88,7 @@ export default function App() {
                         "Lietotājs grib nopirkt biļeti uz piecām naktīm pie fredija fazlāča. Izveido sekvences diagrammu, kur lietotājs ar serveri mijiedarbojās, pērkot biļeti onlainā."
                     }
                     imgUrl={
-                        "../img/cigar.jpg"
+                        "img/cigar.jpg"
                     }
                     bgCol={"rgb(50, 50, 50)"}
                     textCol={"white"}
@@ -98,7 +98,7 @@ export default function App() {
                     title={"Mūsu koncepts pareizajai atbildei!"}
                     description={""}
                     imgUrl={
-                        "https://cdn.discordapp.com/attachments/515119370125443082/1171713459155636294/image.png?ex=655dae32&is=654b3932&hm=e253e643266d9bb3a2a5d3bc48659a6b2d5854ee88aedd2caa9008da359e2fcc&"
+                        "img/pareiza.png"
                     }
                     bgCol={"rgb(50, 50, 50)"}
                     textCol={"white"}
