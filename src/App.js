@@ -44,22 +44,13 @@ export default function App() {
             <SlideComponent
                 title={"Kādi UML elementi ir sekvences diagrammā?"}
                 description={
-                    "Lorem lorem rejahb rgueahriofhajbfh oijahebfjo iuhajvebhjfiuo uhegajvnbfiuou heajvbjfiuo hkajebjhkofiu hkjbaehuoi fhjbaeiuohk fjbvnheajiuohfjb kaoeiuhj fbkiuoeahbj fkoiueahjvbnhfjiuo aeuhjvbhfiuo aehkjb"
+                    "Līnija dzīvē: Līnija dzīvē ir UML elements, kas pārstāv objektu vai dalībnieku mijiedarbībā, un tas tiek izmantots, lai attēlotu objekta pastāvēšanu laika gaitā.Aktivizācijas josla: Aktivizācijas josla, kas ir vertikāls četrstūris uz līnijas dzīvē, pārstāv laika periodu, kurā objekts ir aktīvs un apstrādā ziņojumu.Ziņojums: Ziņojumi, ieskaitot sinhronos, asinhronos un atgriešanas ziņojumus, ir UML elementi, kas tiek izmantoti, lai attēlotu komunikāciju un mijiedarbību starp objektiem.Paša ziņojums: Paša ziņojumi, kas tiek izmantoti, lai parādītu, ka objekts sūta ziņojumu pašam sev, ir arī UML elementi."
                 }
                 imgUrl={"https://i.imgur.com/79TgQz9.jpg"}
                 bgCol={"rgb(50, 50, 50)"}
                 textCol={"white"}
             />
 
-            <SlideComponent
-                title={"Kādi UML elementi ir šajā diagrammā?"}
-                description={
-                    "asd"
-                }
-                imgUrl={"https://i.imgur.com/79TgQz9.jpg"}
-                bgCol={"rgb(50, 50, 50)"}
-                textCol={"white"}
-            />
 
             <SlideComponent
                 title={"Kāds ir piemērs ar skaidrojumu?"}
