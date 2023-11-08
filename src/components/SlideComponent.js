@@ -1,6 +1,8 @@
 import './SlideComponent.css';
 
 export default function SlideComponent({ title, description, imgUrl, bgCol, textCol }) {
+    const imgOnly = description == '';
+
     return (
         <article 
             className='slide'
@@ -9,11 +11,13 @@ export default function SlideComponent({ title, description, imgUrl, bgCol, text
                 '--textCol': textCol
             }}
         >
-            <h1>{ title }</h1>
+            <h1 style={{ textAlign: imgOnly ? 'center' : 'left' }}>{ title }</h1>
             <div className='slide-content'>
-                <div className='slide-description'>
-                    { description }
-                </div>
+                { !imgOnly &&
+                    <div className='slide-description'>
+                        { description }
+                    </div>
+                }
                 <div className='slide-img-container' style={{ background: `url(${ imgUrl }) no-repeat center`, backgroundSize: 'contain' }}>
                 </div>
             </div>

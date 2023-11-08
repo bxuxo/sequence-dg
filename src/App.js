@@ -62,7 +62,7 @@ export default function App() {
                 <SlideComponent
                     title={"Kāds ir piemērs ar skaidrojumu?"}
                     description={
-                        "Lorem lorem rejahb rgueahriofhajbfh oijahebfjo iuhajvebhjfiuo uhegajvnbfiuou heajvbjfiuo hkajebjhkofiu hkjbaehuoi fhjbaeiuohk fjbvnheajiuohfjb kaoeiuhj fbkiuoeahbj fkoiueahjvbnhfjiuo aeuhjvbhfiuo aehkjb"
+                        ''
                     }
                     imgUrl={"https://cdn-images.visual-paradigm.com/guide/uml/what-is-sequence-diagram/01-sequence-diagram-example.png"}
                     bgCol={"rgb(50, 50, 50)"}
@@ -72,7 +72,7 @@ export default function App() {
                 <SlideComponent
                     title={"Kā šī diagramma izskatās Bloga gadījumā?"}
                     description={
-                        "Lorem lorem rejahb rgueahriofhajbfh oijahebfjo iuhajvebhjfiuo uhegajvnbfiuou heajvbjfiuo hkajebjhkofiu hkjbaehuoi fhjbaeiuohk fjbvnheajiuohfjb kaoeiuhj fbkiuoeahbj fkoiueahjvbnhfjiuo aeuhjvbhfiuo aehkjb"
+                        ''
                     }
                     imgUrl={"https://cdn.discordapp.com/attachments/515119370125443082/1171706744590831706/image.png?ex=655da7f1&is=654b32f1&hm=fa6596d9635fc7ef2c5912f6193b3a369518e3a50deb59e7acb66bf7983e667d&"}
                     bgCol={"rgb(50, 50, 50)"}
