@@ -33,7 +33,7 @@ export default function App() {
                         "Sekvenču diagramma ir viena no uzvedības diagrammu kategorijām, un tās galvenais mērķis ir attēlot, kā dažādi objekti un sistēmas komponentes mijiedarbojas laika gaitā, modelējot to secību un notikumu izpildi. Sekvenču diagramma pieder uzvedības diagrammu kategorijai un tiek izmantota, lai vizuāli modelētu sistēmas uzvedību un darbību laika gaitā, neattiecoties uz to struktūru."
                     }
                     imgUrl={
-                        "img/template5.webp"
+                        "./img/template5.webp"
                     }
                     bgCol={"rgb(50, 50, 50)"}
                     textCol={"white"}
@@ -45,7 +45,7 @@ export default function App() {
                         "Secības diagrammas ir noderīgas, lai vizualizētu un izprastu mijiedarbības plūsmu sistēmā. Tās parasti izmanto programmatūras izstrādes projektēšanas un dokumentēšanas fāzēs, lai attēlotu sistēmas dinamisko uzvedību vai izprastu esošās sistēmas."
                     }
                     imgUrl={
-                        "img/OIP.jpg"
+                        "./img/OIP.jpg"
                     }
                     bgCol={"rgb(50, 50, 50)"}
                     textCol={"white"}
@@ -57,7 +57,7 @@ export default function App() {
                         "Līnija dzīvē: Līnija dzīvē ir UML elements, kas pārstāv objektu vai dalībnieku mijiedarbībā, un tas tiek izmantots, lai attēlotu objekta pastāvēšanu laika gaitā.Aktivizācijas josla: Aktivizācijas josla, kas ir vertikāls četrstūris uz līnijas dzīvē, pārstāv laika periodu, kurā objekts ir aktīvs un apstrādā ziņojumu.Ziņojums: Ziņojumi, ieskaitot sinhronos, asinhronos un atgriešanas ziņojumus, ir UML elementi, kas tiek izmantoti, lai attēlotu komunikāciju un mijiedarbību starp objektiem.Paša ziņojums: Paša ziņojumi, kas tiek izmantoti, lai parādītu, ka objekts sūta ziņojumu pašam sev, ir arī UML elementi."
                     }
                     imgUrl={
-                        "img/elements.png"
+                        "./img/elements.png"
                     }
                     bgCol={"rgb(50, 50, 50)"}
                     textCol={"white"}
@@ -67,7 +67,7 @@ export default function App() {
                     title={"Kāds ir piemērs ar skaidrojumu?"}
                     description={""}
                     imgUrl={
-                        "img/paskaidrojums.png"
+                        "./img/paskaidrojums.png"
                     }
                     bgCol={"rgb(50, 50, 50)"}
                     textCol={"white"}
@@ -77,7 +77,7 @@ export default function App() {
                     title={"Kā šī diagramma izskatās Bloga gadījumā?"}
                     description={""}
                     imgUrl={
-                        "img/bloga_dg.png"
+                        "./img/bloga_dg.png"
                     }
                     bgCol={"rgb(50, 50, 50)"}
                     textCol={"white"}
@@ -88,7 +88,7 @@ export default function App() {
                         "Lietotājs grib nopirkt biļeti uz piecām naktīm pie fredija fazlāča. Izveido sekvences diagrammu, kur lietotājs ar serveri mijiedarbojās, pērkot biļeti onlainā."
                     }
                     imgUrl={
-                        "img/cigar.jpg"
+                        "./img/cigar.jpg"
                     }
                     bgCol={"rgb(50, 50, 50)"}
                     textCol={"white"}
@@ -98,7 +98,7 @@ export default function App() {
                     title={"Mūsu koncepts pareizajai atbildei!"}
                     description={""}
                     imgUrl={
-                        "img/pareiza.png"
+                        "./img/pareiza.png"
                     }
                     bgCol={"rgb(50, 50, 50)"}
                     textCol={"white"}
