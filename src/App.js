@@ -6,10 +6,10 @@ import TitleScreen from "./components/TitleScreen.js";
 export default function App() {
     return (
         <main className="container-all hidden-scrollbar">
-            <TitleScreen 
+            {/* <TitleScreen 
                 author={ 'Justs, Bruno, Roberts, Kārlis' }
                 title={ 'Sekvences diagramma' }
-            />
+            /> */}
 
             <SlideComponent
                 title={"Sekvences diagramma"}

@@ -24,18 +24,17 @@
         display: flex;
     }
 
-    & .slide-img-container {
-        border-radius: 1rem;
-    }
-
     & .slide-content {
         flex: 1;
         display: flex;
         gap: 0.5rem;
 
         & > * {
-            width: 50%;
-            height: 100%;
+            flex: 1;
+        }
+
+        & .slide-img-container {
+            flex: 1.25;
         }
     }
 }
