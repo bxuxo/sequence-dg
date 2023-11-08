@@ -1,10 +1,16 @@
 import "./App.css";
 
 import SlideComponent from "./components/SlideComponent.js";
+import TitleScreen from "./components/TitleScreen.js";
 
 export default function App() {
     return (
         <main className="container-all hidden-scrollbar">
+            <TitleScreen 
+                author={ 'Justs, Bruno, Roberts, Kārlis' }
+                title={ 'Sekvences diagramma' }
+            />
+
             <SlideComponent
                 title={"Sekvences diagramma"}
                 description={"Roberts, Kārlis, Bruno, Justs"}
