@@ -23,7 +23,7 @@ export default function App() {
                     "Sekvenču diagramma ir viena no uzvedības diagrammu kategorijām, un tās galvenais mērķis ir attēlot, kā dažādi objekti un sistēmas komponentes mijiedarbojas laika gaitā, modelējot to secību un notikumu izpildi. Sekvenču diagramma pieder uzvedības diagrammu kategorijai un tiek izmantota, lai vizuāli modelētu sistēmas uzvedību un darbību laika gaitā, neattiecoties uz to struktūru."
                 }
                 imgUrl={
-                    "https://media.kare11.com/assets/ETONLINE/images/ff7512df-eb27-44af-8cc4-3029fe0c3c8f/ff7512df-eb27-44af-8cc4-3029fe0c3c8f_1140x641.png"
+                    "https://creately.com/static/assets/guides/sequence-diagram-tutorial/template5.webp"
                 }
                 bgCol={"rgb(50, 50, 50)"}
                 textCol={"white"}
@@ -57,7 +57,7 @@ export default function App() {
                 description={
                     "Lorem lorem rejahb rgueahriofhajbfh oijahebfjo iuhajvebhjfiuo uhegajvnbfiuou heajvbjfiuo hkajebjhkofiu hkjbaehuoi fhjbaeiuohk fjbvnheajiuohfjb kaoeiuhj fbkiuoeahbj fkoiueahjvbnhfjiuo aeuhjvbhfiuo aehkjb"
                 }
-                imgUrl={"https://i.imgur.com/79TgQz9.jpg"}
+                imgUrl={"https://cdn-images.visual-paradigm.com/guide/uml/what-is-sequence-diagram/01-sequence-diagram-example.png"}
                 bgCol={"rgb(50, 50, 50)"}
                 textCol={"white"}
             />
