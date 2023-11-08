@@ -16,12 +16,14 @@ export default function App() {
             />
 
             <SlideComponent
-                title={"Kas tā ir un vai tā ir struktūras vai uzvedības modeļa daļa?"}
+                title={
+                    "Kas tā ir un vai tā ir struktūras vai uzvedības modeļa daļa?"
+                }
                 description={
-                    "Lorem lorem rejahb rgueahriofhajbfh oijahebfjo iuhajvebhjfiuo uhegajvnbfiuou heajvbjfiuo hkajebjhkofiu hkjbaehuoi fhjbaeiuohk fjbvnheajiuohfjb kaoeiuhj fbkiuoeahbj fkoiueahjvbnhfjiuo aeuhjvbhfiuo aehkjb"
+                    "Sekvenču diagramma ir viena no uzvedības diagrammu kategorijām, un tās galvenais mērķis ir attēlot, kā dažādi objekti un sistēmas komponentes mijiedarbojas laika gaitā, modelējot to secību un notikumu izpildi. Sekvenču diagramma pieder uzvedības diagrammu kategorijai un tiek izmantota, lai vizuāli modelētu sistēmas uzvedību un darbību laika gaitā, neattiecoties uz to struktūru."
                 }
                 imgUrl={
-                    "https://i1.sndcdn.com/artworks-28nZ9iNGE40eOkTI-alYLyg-t500x500.jpg"
+                    "https://media.kare11.com/assets/ETONLINE/images/ff7512df-eb27-44af-8cc4-3029fe0c3c8f/ff7512df-eb27-44af-8cc4-3029fe0c3c8f_1140x641.png"
                 }
                 bgCol={"rgb(50, 50, 50)"}
                 textCol={"white"}
@@ -30,9 +32,11 @@ export default function App() {
             <SlideComponent
                 title={"Kad to izmanto?"}
                 description={
-                    "Lorem lorem rejahb rgueahriofhajbfh oijahebfjo iuhajvebhjfiuo uhegajvnbfiuou heajvbjfiuo hkajebjhkofiu hkjbaehuoi fhjbaeiuohk fjbvnheajiuohfjb kaoeiuhj fbkiuoeahbj fkoiueahjvbnhfjiuo aeuhjvbhfiuo aehkjb"
+                    "Secības diagrammas ir noderīgas, lai vizualizētu un izprastu mijiedarbības plūsmu sistēmā. Tās parasti izmanto programmatūras izstrādes projektēšanas un dokumentēšanas fāzēs, lai attēlotu sistēmas dinamisko uzvedību vai izprastu esošās sistēmas."
                 }
-                imgUrl={"https://i.imgur.com/79TgQz9.jpg"}
+                imgUrl={
+                    "https://th.bing.com/th/id/OIP.n0YL6HVlb9Pp0yWMgk9VugHaIN?pid=ImgDet&rs=1"
+                }
                 bgCol={"rgb(50, 50, 50)"}
                 textCol={"white"}
             />
@@ -40,24 +44,14 @@ export default function App() {
             <SlideComponent
                 title={"Kādi UML elementi ir sekvences diagrammā?"}
                 description={
-                    "Lorem lorem rejahb rgueahriofhajbfh oijahebfjo iuhajvebhjfiuo uhegajvnbfiuou heajvbjfiuo hkajebjhkofiu hkjbaehuoi fhjbaeiuohk fjbvnheajiuohfjb kaoeiuhj fbkiuoeahbj fkoiueahjvbnhfjiuo aeuhjvbhfiuo aehkjb"
+                    "Līnija dzīvē: Līnija dzīvē ir UML elements, kas pārstāv objektu vai dalībnieku mijiedarbībā, un tas tiek izmantots, lai attēlotu objekta pastāvēšanu laika gaitā.Aktivizācijas josla: Aktivizācijas josla, kas ir vertikāls četrstūris uz līnijas dzīvē, pārstāv laika periodu, kurā objekts ir aktīvs un apstrādā ziņojumu.Ziņojums: Ziņojumi, ieskaitot sinhronos, asinhronos un atgriešanas ziņojumus, ir UML elementi, kas tiek izmantoti, lai attēlotu komunikāciju un mijiedarbību starp objektiem.Paša ziņojums: Paša ziņojumi, kas tiek izmantoti, lai parādītu, ka objekts sūta ziņojumu pašam sev, ir arī UML elementi."
                 }
                 imgUrl={"https://i.imgur.com/79TgQz9.jpg"}
                 bgCol={"rgb(50, 50, 50)"}
                 textCol={"white"}
             />
 
-            <SlideComponent
-                title={"Kādi UML elementi ir šajā diagrammā?"}
-                description={
-                    "Lorem lorem rejahb rgueahriofhajbfh oijahebfjo iuhajvebhjfiuo uhegajvnbfiuou heajvbjfiuo hkajebjhkofiu hkjbaehuoi fhjbaeiuohk fjbvnheajiuohfjb kaoeiuhj fbkiuoeahbj fkoiueahjvbnhfjiuo aeuhjvbhfiuo aehkjb"
-                }
-                imgUrl={"https://i.imgur.com/79TgQz9.jpg"}
-                bgCol={"rgb(50, 50, 50)"}
-                textCol={"white"}
-            />
 
-            
             <SlideComponent
                 title={"Kāds ir piemērs ar skaidrojumu?"}
                 description={
@@ -77,8 +71,6 @@ export default function App() {
                 bgCol={"rgb(50, 50, 50)"}
                 textCol={"white"}
             />
-
-            
         </main>
     );
 }
