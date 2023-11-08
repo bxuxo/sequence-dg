@@ -52,7 +52,7 @@ export default function App() {
                 description={
                     "Līnija dzīvē: Līnija dzīvē ir UML elements, kas pārstāv objektu vai dalībnieku mijiedarbībā, un tas tiek izmantots, lai attēlotu objekta pastāvēšanu laika gaitā.Aktivizācijas josla: Aktivizācijas josla, kas ir vertikāls četrstūris uz līnijas dzīvē, pārstāv laika periodu, kurā objekts ir aktīvs un apstrādā ziņojumu.Ziņojums: Ziņojumi, ieskaitot sinhronos, asinhronos un atgriešanas ziņojumus, ir UML elementi, kas tiek izmantoti, lai attēlotu komunikāciju un mijiedarbību starp objektiem.Paša ziņojums: Paša ziņojumi, kas tiek izmantoti, lai parādītu, ka objekts sūta ziņojumu pašam sev, ir arī UML elementi."
                 }
-                imgUrl={"https://i.imgur.com/79TgQz9.jpg"}
+                imgUrl={"https://cdn.discordapp.com/attachments/515119370125443082/1171707601856254002/image.png?ex=655da8bd&is=654b33bd&hm=19fee0c26f849bf9f97bd38f454e25922b015d87c00f7f018d0030866a59a1c0&"}
                 bgCol={"rgb(50, 50, 50)"}
                 textCol={"white"}
             />
@@ -73,7 +73,7 @@ export default function App() {
                 description={
                     "Lorem lorem rejahb rgueahriofhajbfh oijahebfjo iuhajvebhjfiuo uhegajvnbfiuou heajvbjfiuo hkajebjhkofiu hkjbaehuoi fhjbaeiuohk fjbvnheajiuohfjb kaoeiuhj fbkiuoeahbj fkoiueahjvbnhfjiuo aeuhjvbhfiuo aehkjb"
                 }
-                imgUrl={"https://i.imgur.com/79TgQz9.jpg"}
+                imgUrl={"https://cdn.discordapp.com/attachments/515119370125443082/1171706744590831706/image.png?ex=655da7f1&is=654b32f1&hm=fa6596d9635fc7ef2c5912f6193b3a369518e3a50deb59e7acb66bf7983e667d&"}
                 bgCol={"rgb(50, 50, 50)"}
                 textCol={"white"}
             />
