@@ -93,6 +93,16 @@ export default function App() {
                     bgCol={"rgb(50, 50, 50)"}
                     textCol={"white"}
                 />
+
+                <SlideComponent
+                    title={"Mūsu koncepts pareizajai atbildei!"}
+                    description={""}
+                    imgUrl={
+                        "https://cdn.discordapp.com/attachments/515119370125443082/1171713459155636294/image.png?ex=655dae32&is=654b3932&hm=e253e643266d9bb3a2a5d3bc48659a6b2d5854ee88aedd2caa9008da359e2fcc&"
+                    }
+                    bgCol={"rgb(50, 50, 50)"}
+                    textCol={"white"}
+                />
             </main>
         </>
     );
