@@ -88,7 +88,7 @@ export default function App() {
                         "Lietotājs grib nopirkt biļeti uz piecām naktīm pie fredija fazlāča. Izveido sekvences diagrammu, kur lietotājs ar serveri mijiedarbojās, pērkot biļeti onlainā."
                     }
                     imgUrl={
-                        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZQ8sd18VolPo54qeVwA0XQZi524Uq-KHEPKbrMPQGCk5MUVu_M6LvA0FYys58fHZ_U7c&usqp=CAU"
+                        "../img/cigar.jpg"
                     }
                     bgCol={"rgb(50, 50, 50)"}
                     textCol={"white"}
